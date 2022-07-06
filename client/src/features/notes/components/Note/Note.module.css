@@ -1,0 +1,58 @@
+.container {
+  max-width: 600px;
+  width: 100%;
+  border: 2px solid #b3b0b1;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 40px 20px 20px;
+  word-wrap: break-word;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: 0;
+  border: none;
+}
+
+.button:focus {
+  outline: 1 px solid #b3b0b1;
+}
+
+.button.edit {
+  right: 60px;
+  top: 10px;
+}
+
+.button.remove {
+  right: 20px;
+  top: 10px;
+}
+
+.img {
+  width: 18px;
+  height: 18px;
+  object-fit: cover;
+  object-position: center center;
+  opacity: 0.5;
+
+  cursor: pointer;
+  transition: opacity 0.4s;
+}
+
+.edit:hover {
+  opacity: 1;
+}
+
+.remove:hover {
+  opacity: 1;
+}

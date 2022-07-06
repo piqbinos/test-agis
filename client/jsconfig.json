@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "baseUrl": "src",
+    "target": "es6",
+    "paths": {
+      "@/*": ["/*"],
+      "@providers/*": ["providers/*"],
+      "@components/*": ["components/*"],
+      "@features/*": ["features/*"],
+      "@routes/*": ["routes/*"],
+      "@styles/*": ["styles/*"],
+      "@assets/*": ["assets/*"],
+      "@constants/*": ["constants/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
